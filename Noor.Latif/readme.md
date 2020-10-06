@@ -1,7 +1,7 @@
 # Innehållsförteckning
-- [Studiefiler - Noors projektsida](#studiefiler)
-- [Open-Source filosofin](#filosofi)
-- [Källor som används](#källor)
+- [Studiefiler - Noors projektsida](#studiefiler---noors-projektsida)
+- [Open-Source filosofin](#open-source-filosofin)
+- [Källor som används](#källor-som-används)
 
 ## Studiefiler - Noors projektsida
 Hej studiekamrater!
