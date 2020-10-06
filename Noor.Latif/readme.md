@@ -18,8 +18,8 @@ Utan, det tvingar mig att hela tiden förbättras. Både som person och kodare, 
 ## Källor som används
 [Bucky's C Tutorial](https://www.youtube.com/watch?v=2NWeucMKrLI)
 
-[C från början](http://skansholm.com/CFranBorjan/index.html)
-
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 [Git Cheatsheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
+
+[C Cheatsheet](https://cheatography.com/ashlyn-black/cheat-sheets/c-reference/)
