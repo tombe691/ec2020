@@ -1,6 +1,6 @@
  /*
  ============================================================================
- Name		: id-kontroll av kön.c
+ Name		: uppgift.3.4.gender-id-check.c
  Author		: Noor Latif
  Description: Identifierar om du är man eller kvinna via ditt personnummer.
  Date		: 2020-09-28
