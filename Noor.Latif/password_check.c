@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <stdlib.h>
+#define passLength 50
 
  /*
  ============================================================================
@@ -13,13 +14,15 @@
  */
 
 int main(){
-	char password [50];
+	char password[passLength];
 	int i;	/* for counting */
 	_Bool lower = 0;
 	_Bool uppercase = 0;
 	_Bool digit = 0;
 
-	printf("Enter a strong password!  \n");
+	islower(password[i]);
+
+	printf("Enter a strong password! \n");
 
 	while(1){
 		printf("your password should contain upper case letters, \n");
@@ -32,30 +35,22 @@ int main(){
 		 * islower returns false (0) when content is not lowercase.
 		 * The if will then be skipped because its condition is 0 (false)
 		 */
-		for (i = 0; i < 50; i++){
-			if (islower(password[i])){	/* [i] loops the password array from 0 to 49 to access up to 50 characters inside */
-			lower = 1;					/* */
-			break;
-			}
-		}
-
-		for (i = 0; i < 50; i++){
-			if (isupper(password[i])){
+		for (i = 0; i < passLength; i++){
+			if (islower(password[i])){	/* [i] loops the password array from 0 to 49 to access up to passLength characters inside */
+				lower = 1;					/* when lower is found, set it to true and skip to next check */
+			} 
+			else if (isupper(password[i])){
 				uppercase = 1;
-				break;
-			}
-		}
-
-		for (i = 0; i < 50; i++){
-			if (isdigit(password[i])){
+			} 
+			else if (isdigit(password[i])){
 				digit = 1;
-				break;
 			}
 		}
 
 		if ((lower * uppercase * digit) != 0){
 			printf("You have entered a strong password. \n");
-		}else{
+		}
+		else{
 			printf("You have entered a weak password. Please enter a new password! \n\n");
 			continue;
         }
