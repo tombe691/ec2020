@@ -1,14 +1,15 @@
 /*********************************************************************************
 *                              Author: Patrik Lilja                              *
 *                                File Name: sum.c                                *
-*                    Creation Date: October 7, 2020 04:47 PM                     *
-*                     Last Updated: October 7, 2020 04:59 PM                     *
+*                    Creation Date: October 7, 2020 06:32 PM                     *
+*                     Last Updated: October 7, 2020 06:42 PM                     *
 *                               Source Language: c                               *
-*          Repository: https://gitlab.com/IOTPL/iot-gbg-embedded-c.git           *
+*               Repository: https://github.com/tombe691/ec2020.git               *
 *                                                                                *
 *                            --- Code Description ---                            *
 *                           Programmeringsuppgift 8.5                            *
 *********************************************************************************/
+
 #include "sum.h"
 
 double sum(double a[],int numberofelement)

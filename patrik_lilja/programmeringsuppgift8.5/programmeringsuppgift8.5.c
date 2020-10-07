@@ -1,16 +1,16 @@
 /*********************************************************************************
 *                              Author: Patrik Lilja                              *
 *                     File Name: programmeringsuppgift8.5.c                      *
-*                    Creation Date: October 6, 2020 06:08 PM                     *
-*                     Last Updated: October 6, 2020 07:20 PM                     *
+*                    Creation Date: October 7, 2020 06:32 PM                     *
+*                     Last Updated: October 7, 2020 06:43 PM                     *
 *                               Source Language: c                               *
-*          Repository: https://gitlab.com/IOTPL/iot-gbg-embedded-c.git           *
+*               Repository: https://github.com/tombe691/ec2020.git               *
 *                                                                                *
 *                            --- Code Description ---                            *
 *                           Programmeringsuppgift 8.5                            *
 *********************************************************************************/
 
-#include <stdio.h>
+1#include <stdio.h>
 #include <Windows.h>
 
 #include "sum.h"
