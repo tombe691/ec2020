@@ -1,20 +1,24 @@
 //==============================================================================
-//Description   : Definitionsfil för funktionsbibliotek area.
+//Description   : Fibonacci talföljd.
 //Filename      : uppgift_7-2.c
-//Date          : 2020-10-06
+//Date          : 2020-10-07
 //Author        : Leif Krüger, leif.kruger@gmail.com
 //==============================================================================
 
-#include "uppgift_7-2.h"
+#include <stdio.h>
+#include "uppgift_7-2h.h"
 
-double areaRektangel(double b, double h) {
-  return b*h;
-}
+int main() {
+int val; //Menyvariabel för att visa nästa tal eller avsluta
 
-double areaCirkel(double r) {
-  return PI * r * r;
-}
-
-double areaTriangel(double b, double h) {
-  return b * h / 2;
+   while(1) {
+      printf("\nTryck (1) visa nästa tal i talföljden, (2) avsluta. ");
+      scanf("%d", &val);
+      if (val == 1) {
+         printf("\nNästa tal i fibonacci-talföljden är: %d\n", fibonacci());
+      }
+      else {
+         break;
+      }
+   }
 }
