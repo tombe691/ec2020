@@ -12,7 +12,7 @@ int main (void) {
 	int gender;
 	long long int id;
 
-	printf("Hej %s! Detta program är bra för den som inte är säker på sitt kön.\nVarför gissa när personnumret bär på alla svar liksom?.\n\n", getenv("USERNAME"));
+	printf("Hej %s! Detta program är bra för den som inte är säker på sitt kön.\n", getenv("USERNAME"));
 	printf("Write 0 if female, 1 if male: ");
 	scanf("%d", &gender);
 	printf("Your ID number (10 digits only): "); // Only digits work
