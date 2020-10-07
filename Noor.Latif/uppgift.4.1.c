@@ -1,6 +1,6 @@
  /*
  ============================================================
- Name		: compare-number-size.c
+ Name		: uppgift.4.1.c
  Author		: Noor Latif
  Description: Outputs largest and smallest numbers entered.
  Date		: 2020-09-28
