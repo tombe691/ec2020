@@ -38,4 +38,3 @@ int main()
   areaForTriangle = getAreaTriangle (bas, hojd);
   printf("Arean for rektangeln ar: %.0f", areaForTriangle);
   return 0;
-}//Noor är så BRA! :D
