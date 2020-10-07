@@ -43,5 +43,4 @@ int main()
         printf("The sum of all kvadratic values of all entered numbers is %f\n\n", kvad_sum(vektor,elementnumber)); // Calculates the sum of all values^2 
         printf("This program will end in 5 seconds!");
         Sleep(5000);
-        
 }
