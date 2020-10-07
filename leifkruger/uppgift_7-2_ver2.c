@@ -9,7 +9,7 @@
 #include "uppgift_7-2h.h"
 
 int main() {
-int antalTal; //Menyvariabel för att visa nästa tal eller avsluta
+int antalTal; //Variabel för att visa x st tal
 
    printf("\n");
    printf("Detta program beräknar Fibonacci talföljden. \n\n");
