@@ -10,7 +10,7 @@
 *                           Programmeringsuppgift 8.5                            *
 *********************************************************************************/
 
-1#include <stdio.h>
+#include <stdio.h>
 #include <Windows.h>
 
 #include "sum.h"
