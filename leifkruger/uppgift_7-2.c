@@ -1,5 +1,7 @@
 //==============================================================================
 //Description   : Fibonacci talföljd.
+//              : Se även 
+//                https://www.mathsisfun.com/numbers/fibonacci-sequence.html
 //Filename      : uppgift_7-2.c
 //Date          : 2020-10-07
 //Author        : Leif Krüger, leif.kruger@gmail.com
