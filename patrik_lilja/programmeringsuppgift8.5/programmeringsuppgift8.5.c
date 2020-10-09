@@ -25,7 +25,7 @@ int main()
     printf("\nIf you do not want to add more values press <Ctrl> + Z and <Enter> ?\n\n");
    
     while(1) {
-            
+        
             if (elementnumber>=100){                        //Prevents more than 100 inputs breaks whie loop
                 printf("\nYou have now reach the maximum allowed numbers of inputs!");
                 break;
