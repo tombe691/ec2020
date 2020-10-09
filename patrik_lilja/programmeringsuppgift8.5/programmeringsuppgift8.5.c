@@ -2,7 +2,7 @@
 *                              Author: Patrik Lilja                              *
 *                     File Name: programmeringsuppgift8.5.c                      *
 *                    Creation Date: October 7, 2020 06:32 PM                     *
-*                     Last Updated: October 7, 2020 06:43 PM                     *
+*                     Last Updated: October 9, 2020 11:43 AM                     *
 *                               Source Language: c                               *
 *               Repository: https://github.com/tombe691/ec2020.git               *
 *                                                                                *
