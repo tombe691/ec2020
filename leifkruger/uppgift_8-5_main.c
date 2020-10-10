@@ -1,7 +1,6 @@
 //==============================================================================
-//Description   : Definitionsfil för funktion till uppgift 8.5.
-//                1. Summa av element. 2. Summa av kvadrat av element.
-//Filename      : uppgift_8-5c.c
+//Description   : Summa av element samt summa av kvadrat av element.
+//Filename      : uppgift_8-5_main.c
 //Date          : 2020-10-10
 //Author        : Leif Krüger, leif.kruger@gmail.com
 //==============================================================================
