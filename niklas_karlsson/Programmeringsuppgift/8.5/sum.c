@@ -32,7 +32,7 @@ double sum(double dd[], int t)
 
 /*
  * Square sum
- * dd = doubl digit
+ * dd = double digit
  * t = times
  */
 double kvad_sum(double dd[], int t)
