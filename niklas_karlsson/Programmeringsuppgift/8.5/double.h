@@ -11,6 +11,6 @@ double theRand(double min, double max);
 // Max integear
 #define I_MAX 15
 // Max double
-#define D_MIN 1
+#define D_MIN 1.0
 // Max double
 #define D_MAX 100.0
