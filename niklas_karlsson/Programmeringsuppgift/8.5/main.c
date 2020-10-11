@@ -2,6 +2,7 @@
  * @Name: main.c
  * @Author: Niklas Karlsson | schlook @ github.com | email: knasen1@gmail.com
  * @Description: Main function for calling sum and kvad_sum functions with random numbers
+ * To compile use: gcc main.c sum.c
  * @Date: 2020-10-07
  */
 // Standard libraries.
