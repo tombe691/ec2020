@@ -2,6 +2,7 @@
  * @Name: double.h
  * @Author: Niklas Karlsson | schlook @ github.com | email: knasen1@gmail.com
  * @Description: Header file, defined macros
+ * To compile use: gcc main.c sum.c
  * @Date: 2020-10-07
  */
 
