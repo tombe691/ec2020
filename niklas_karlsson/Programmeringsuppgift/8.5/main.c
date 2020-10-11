@@ -37,11 +37,11 @@ int main(void)
         printf("%.2lf\n", sumsum[i]);
     }
 
-    // Debug - if we never gets the results.
+    // Debug - if we never get the results.
     //printf("Calling sum function\n");
     // Force the array to the sum function
     printf("Sum of the numbers is: %.2lf\n", sum(sumsum, MAXUS));
-    // Debug - if we never gets the results.
+    // Debug - if we never get the results.
     //printf("Calling sum_kvad function\n");
     // For the same array to the kvadrat function.
     printf("Square sum of the numbers is: %.2lf\n", kvad_sum(sumsum, MAXUS));
