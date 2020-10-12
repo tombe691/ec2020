@@ -178,12 +178,16 @@ static char morseus(char *text)
         {
             // Now we sleep. How nice. But for how long?
             Sleep(middleMs);
+            // Beep aslong as sleep is active
+            Beep(900, middleMs);
 
             // Just back up to the loop again please.
             continue;
         }
         // "else"
         Sleep(shortMs);
+        // Beep aslong as sleep is active
+        Beep(900, shortMs);
     }
 }
 
