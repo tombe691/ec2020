@@ -2,8 +2,8 @@
  * @Name: main.c
  * @Author: Niklas Karlsson | schlook @ github.com | email: knasen1@gmail.com
  * @Description: Printing my name in different ways.
- * To compile use: gcc main.c sum.c
- * @Date: 2020-10-07
+ * To compile use: gcc main.c
+ * @Date: 2020-10-12
  */
 #include <stdio.h>
 #include <string.h>
