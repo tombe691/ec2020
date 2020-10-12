@@ -18,7 +18,7 @@ int main(void)
     // initialise the random seed using srand() and time() (Otherwis you might see same result over and over.)
     srand(time(NULL));
 
-    // Throw a random digit between I_MAX and I_MIN (see double.h for config)
+    // Throw a random digit between 1 and I_MAX (see double.h for config)
     int max = (rand() % (I_MAX - 1 + 1)) + 1;
     // Cant assign normal variable for how many elements.
     const int MAXUS = max;
