@@ -1,8 +1,7 @@
 /*
  * @Name: palidrome.h
  * @Author: Niklas Karlsson | schlook @ github.com | email: knasen1@gmail.com
- * @Description: Printing my name in different ways.
- * To compile use: gcc main.c palidrome.c
+ * @Description: Palidrome
  * @Date: 2020-10-12
  */
 
