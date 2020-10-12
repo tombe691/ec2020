@@ -8,7 +8,7 @@
 
 // Random double bumber between min and max values.
 double theRand(double min, double max);
-// Max integear
+// Max integer
 #define I_MAX 15
 // Max double
 #define D_MIN 1.0
