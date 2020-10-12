@@ -21,8 +21,7 @@ int main(void)
 }
 
 /*
- * I know that goto shouldn't be used.
- * But I couldn't help myself to include it anyway
+ * While loop.
  */
 int exampleTwo(void)
 {
