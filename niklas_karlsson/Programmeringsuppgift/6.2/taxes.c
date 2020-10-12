@@ -37,6 +37,7 @@ double taxInput(void)
     // Wait for user input. We only need long float. Other shall not pass!
     if (scanf("%lf", &taxin) == 0)
     {
+        // Flush inputs and outputs.
         flushIt();
         // Print a new message to the user.
         printf("%s", STRING_ERROR);
