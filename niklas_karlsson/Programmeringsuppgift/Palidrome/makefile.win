@@ -1,2 +1,0 @@
-main: main.c palidrome.c
-	gcc -o main.exe main.c palidrome.c
