@@ -8,7 +8,7 @@
  */
 
 #include <stdio.h>
-#include "index.h"
+#include "fun.h"
 
 int main()
 {

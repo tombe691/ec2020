@@ -8,7 +8,7 @@
  */
 
 #include <stdio.h>
-#include "areafunctions.h"
+#include "fun.h"
 
 int main(){
 	/* Vald enhet matas sedan in i alla relevanta kodrader */

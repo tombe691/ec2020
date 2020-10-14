@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "areafunctions.h"
 
 /* Takes a digit from the user and returns it as a double value. */
 double getDouble(){
