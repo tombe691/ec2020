@@ -13,4 +13,9 @@
 #define TRUE 1
 #define FALSE 0
 
+// Make it available for all
+#define NOTPALIDROME "This line is not a palidrome: %s\n"
+#define ISPALIDROME "This line is a palidrome: %s\n"
+
 bool isPalindrome(const char str[]);
+static char *removeWhite(char *to, const char *from);
