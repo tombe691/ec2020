@@ -20,6 +20,7 @@ void buccaneer(const char str[])
 {
     char temp[512];
     int c = 0, is_con;
+
     /*
      * since most vowels have åäöëêéè and stuff we just dont look for it.
      * Look for consonants instead (somewhat easier)
@@ -36,14 +37,14 @@ void buccaneer(const char str[])
             // Compare string with lower case consonants
             if (str[i] == cons[j])
             {
-                // printf("Yes it's a consonant\n");
+                // printf("Yes it's a \"lower case\" consonant\n");
                 is_con = 1;
             }
 
             // Compare string with upper case consonants
             else if (str[i] == toupper(cons[j]))
             {
-                // printf("Yes it's a UPPER CASE consonant\n");
+                // printf("Yes it's a \"UPPER CASE\" consonant\n");
                 is_con = 1;
             }
         }
