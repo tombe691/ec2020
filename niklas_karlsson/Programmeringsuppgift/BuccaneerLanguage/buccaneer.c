@@ -18,8 +18,8 @@
  */
 void buccaneer(const char str[])
 {
-    char temp[512], is_con;
-    int c = 0;
+    char temp[512];
+    int c = 0, is_con;
     /*
      * since most vowels have åäöëêéè and stuff we just dont look for it.
      * Look for consonants instead (somewhat easier)
