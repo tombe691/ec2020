@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Noor Latif"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-28 06:06:17 pm"/>
+        <attribute name="created" value="Tm9vciBMYXRpZjtERVNLVE9QLU1TM0EzTUQ7MjAyMC0wOS0yODswNToyOTozOCBwbTszMzU1"/>
+        <attribute name="edited" value="Tm9vciBMYXRpZjtERVNLVE9QLU1TM0EzTUQ7MjAyMC0wOS0yODswNjowNjoxNyBwbTs0OzM0NTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <while expression="true">
+                <comment text="3 short blinks"/>
+                <output expression="&quot;Led on&quot;" newline="True"/>
+                <call expression="delay(1000)"/>
+                <output expression="&quot;Led off&quot;" newline="True"/>
+                <call expression="delay(500)"/>
+                <output expression="&quot;Led on&quot;" newline="True"/>
+                <call expression="delay(1000)"/>
+                <output expression="&quot;Led off&quot;" newline="True"/>
+                <call expression="delay(500)"/>
+                <output expression="&quot;Led on&quot;" newline="True"/>
+                <call expression="delay(1000)"/>
+                <output expression="&quot;Led off&quot;" newline="True"/>
+                <comment text="Pause for next letter"/>
+                <call expression="delay(3000)"/>
+                <comment text="3 long blinks"/>
+                <output expression="&quot;Led on&quot;" newline="True"/>
+                <call expression="delay(3000)"/>
+                <output expression="&quot;Led off&quot;" newline="True"/>
+                <call expression="delay(500)"/>
+                <output expression="&quot;Led on&quot;" newline="True"/>
+                <call expression="delay(3000)"/>
+                <output expression="&quot;Led off&quot;" newline="True"/>
+                <call expression="delay(500)"/>
+                <output expression="&quot;Led on&quot;" newline="True"/>
+                <call expression="delay(3000)"/>
+                <output expression="&quot;Led off&quot;" newline="True"/>
+                <comment text="Pause for next letter"/>
+                <call expression="delay(3000)"/>
+                <comment text="3 short blinks"/>
+                <output expression="&quot;Led on&quot;" newline="True"/>
+                <call expression="delay(1000)"/>
+                <output expression="&quot;Led off&quot;" newline="True"/>
+                <call expression="delay(500)"/>
+                <output expression="&quot;Led on&quot;" newline="True"/>
+                <call expression="delay(1000)"/>
+                <output expression="&quot;Led off&quot;" newline="True"/>
+                <call expression="delay(500)"/>
+                <output expression="&quot;Led on&quot;" newline="True"/>
+                <call expression="delay(1000)"/>
+                <output expression="&quot;Led off&quot;" newline="True"/>
+                <call expression="delay(500)"/>
+                <comment text="Pause for next loop"/>
+                <call expression="delay(3000)"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

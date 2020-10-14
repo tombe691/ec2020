@@ -8,8 +8,7 @@
  */
 
 #include <stdio.h>
-#include "header\areafunctions.c"
-#include "header\areafunctions.h"
+#include "areafunctions.h"
 
 int main(){
 	/* Vald enhet matas sedan in i alla relevanta kodrader */
