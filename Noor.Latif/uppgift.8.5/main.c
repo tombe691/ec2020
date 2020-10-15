@@ -8,8 +8,7 @@
  */
 
 #include <stdio.h>
-#include "header\index.h"
-#include "header\indexFun.c"
+#include "fun.h"
 
 int main()
 {
