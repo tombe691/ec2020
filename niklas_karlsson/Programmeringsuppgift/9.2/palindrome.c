@@ -1,7 +1,7 @@
 /*
  * @Name: palidrome.c
  * @Author: Niklas Karlsson | schlook @ github.com | email: knasen1@gmail.com
- * @Description: Palidrome.
+ * @Description: Palindrome
  * @Date: 2020-10-12
  */
 

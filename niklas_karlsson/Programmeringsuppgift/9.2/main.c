@@ -24,12 +24,12 @@ int main(void)
     if (!isPalindrome(myStr))
     {
         // Pass string with expressions to another string
-        printf(NOTPALIDROME, myStr);
+        printf(NOTPALINDROME, myStr);
         return 0;
     }
 
     // Pass string with expressions to another string
-    printf(ISPALIDROME, myStr);
+    printf(ISPALINDROME, myStr);
 
     return 0;
 }
