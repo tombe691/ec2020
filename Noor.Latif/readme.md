@@ -23,3 +23,5 @@ Utan, det tvingar mig att hela tiden förbättras. Både som person och kodare, 
 [Git Cheatsheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
 
 [C Cheatsheet](https://cheatography.com/ashlyn-black/cheat-sheets/c-reference/)
+
+[Filemake Guide & Examples](https://kbroman.org/minimal_make/)
