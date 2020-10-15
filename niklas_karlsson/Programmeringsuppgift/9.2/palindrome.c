@@ -5,7 +5,7 @@
  * @Date: 2020-10-12
  */
 
-#include "palidrome.h"
+#include "palindrome.h"
 
 /*
  * Function to compare left end with right end until they meet in the middle.

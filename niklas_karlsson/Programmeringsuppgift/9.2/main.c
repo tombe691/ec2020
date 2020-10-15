@@ -1,25 +1,25 @@
 /*
  * @Name: main.c
  * @Author: Niklas Karlsson | schlook @ github.com | email: knasen1@gmail.com
- * @Description: Palidrome function.
+ * @Description: Palindrome function.
  * @Date: 2020-10-12
  * @Compile Windows: mingw32-make -f makefile.win
  * @Compile Unix: make
  */
 
-#include "palidrome.h"
+#include "palindrome.h"
 
 int main(void)
 {
     // Init the myStr, replyO and replyT variables
     char myStr[] = {0};
-    // Here's the palidrome question.
-    printf("Enter palidrome: ");
+    // Here's the palindrome question.
+    printf("Enter palindrome: ");
     // User input accepting spaces.. mighty lord what have we done?
     scanf("%[^\n]s", &myStr);
     /*
      * check the symptoms of this string.
-     * does it have palidrome? Let's find out.
+     * does it have palindrome? Let's find out.
      */
     if (!isPalindrome(myStr))
     {
