@@ -13,20 +13,22 @@
 #include "fun.h"
 
 int main(){
-	char str1[UCHAR_MAX], str2[UCHAR_MAX];
+	char originalText[UCHAR_MAX], trimmedText[UCHAR_MAX];
 
 	/* Get text from user using stdin and limited to UCHAR_MAX value (255) */
 	printf("Enter a palindrome: ");
-	fgets(str1, UCHAR_MAX, stdin);
-
-	/* Skip spaces from str1 when copying into str2*/
-	strcpyNoSpace(str2, str1);
+	fgets(originalText, UCHAR_MAX, stdin);
+	/* Remove the trailing new line \n from fgets */
+	strtok(originalText, "\n");
 	
-	/* A function to check if a string str2 is palindrome */
-	if (isPalindrome(str2) == 1) {
-		printf("%s is a palindrome.", str2);
+	/* Skip spaces from originalText when copying into trimmedText*/
+	strcpyNoSpace(trimmedText, originalText);
+
+	/* A function to check if a string trimmedText is palindrome */
+	if (isPalindrome(trimmedText)) {
+		printf("%s is a palindrome.", originalText);
 	} else {
-		printf("%s is not a palindrome.", str2);
+		printf("%s is not a palindrome.", originalText);
 	}
 	return 0;
 }
