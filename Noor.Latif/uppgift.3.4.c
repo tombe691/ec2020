@@ -30,6 +30,6 @@ int main (void) {
 	} else if (gender == 0) { 				// output error on gender mismatch
 		printf("Wrong. You're not female\n");
 	} else {
-		printf("Error. Wrong input.\n");
+		printf("Error. Wrong input!\n");
 	}
  }
