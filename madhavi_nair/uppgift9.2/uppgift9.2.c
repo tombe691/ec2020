@@ -31,7 +31,7 @@ int main()
             reverse_str[start]= reverse_str[end];
             reverse_str[end]=temp_store;
             start++;
-            end--
+            end--;
         }
         //comparing two strings
         if(strcmp(original_str,reverse_str)== 0)
