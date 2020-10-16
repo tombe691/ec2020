@@ -1,11 +1,11 @@
 /*
  * @Name: palidrome.c
  * @Author: Niklas Karlsson | schlook @ github.com | email: knasen1@gmail.com
- * @Description: Palidrome.
+ * @Description: Palindrome
  * @Date: 2020-10-12
  */
 
-#include "palidrome.h"
+#include "palindrome.h"
 
 /*
  * Function to compare left end with right end until they meet in the middle.

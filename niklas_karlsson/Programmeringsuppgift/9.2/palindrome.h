@@ -1,7 +1,7 @@
 /*
  * @Name: palidrome.h
  * @Author: Niklas Karlsson | schlook @ github.com | email: knasen1@gmail.com
- * @Description: Palidrome
+ * @Description: Palindrome
  * @Date: 2020-10-12
  */
 
@@ -14,8 +14,8 @@
 #define FALSE 0
 
 // Make it available for all
-#define NOTPALIDROME "This line is not a palidrome: %s\n"
-#define ISPALIDROME "This line is a palidrome: %s\n"
+#define NOTPALINDROME "This line is not a palindrome: %s\n"
+#define ISPALINDROME "This line is a palindrome: %s\n"
 
 bool isPalindrome(const char str[]);
 static char *removeWhite(char *to, const char *from);
