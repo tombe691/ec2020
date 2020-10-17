@@ -1,1 +1,1 @@
-[![Tage Danielsson: Om sannolikhet](https://img.youtube.com/vi/RpUlDtANyg/0.jpg)](https://www.youtube.com/watch?v=RpUlDtANyg)
+[![Tage Danielsson: Om sannolikhet](http://i3.ytimg.com/vi/-RpUlDtANyg/hqdefault.jpg)](https://www.youtube.com/watch?v=RpUlDtANyg)
