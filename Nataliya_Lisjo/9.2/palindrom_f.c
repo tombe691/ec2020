@@ -1,5 +1,6 @@
 
 #include <stdio.h>
+#include <ctype.h>
 #include <string.h>
 
 //den funktion tabort mellanslag from text
