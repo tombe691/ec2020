@@ -1,0 +1,4 @@
+﻿Variabeln pi innehåller redan adressen till heltalsvaraibeln som man skall läsa in värde till.  
+Det är detta pekarvärde funktionen scanf vill ha.
+Hade du skrivit &pi så hade detta uttryck betytt "adressen till pekarvariabeln pi", 
+alltså det ställe i primärminnet där själva pekaren hade legat, inte adressen till heltasvariabeln.
