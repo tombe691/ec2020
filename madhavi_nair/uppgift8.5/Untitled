@@ -1,0 +1,8 @@
+all:	convert_miles.c
+	gcc -g -Wall -o convert_miles convert_miles.c
+
+clean:
+	$(RM) conver_miles.c
+
+
+
