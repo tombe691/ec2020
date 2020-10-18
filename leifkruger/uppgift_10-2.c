@@ -28,18 +28,19 @@ void main() {
 	char textfil[100];
 	printf("Ange filens namn du vill skriva ut i terminalfönstret: ");
 	scanf("%s", textfil);
-	FILE *infil = fopen(textfil, "r");
+	FILE *infil = fopen(textfil, "r"); //Öppna filen "textfil" för läsning
 	if (infil == NULL) {
 		printf("Kan inte hitta filen %s", textfil);
 		exit(1);
 	}
 	int c;
-	while ((c = fgetc(infil)) != EOF) {
-		if (c == '\t') {
+	while ((c = fgetc(infil)) != EOF) { //
+		if (c == '\t') { //Om tab skriv ut 3 st mellanslag
 			printf("   ");
 		} else {
 			putchar(c);
 		}
 	}
 	fclose(infil);
+	return;
 }
