@@ -53,7 +53,7 @@ FILE *openFile(const char *filename, const char *flags)
 }
 
 // Replace tabs with number of spaces
-char replaceTabs(const char *filename, int num)
+void replaceTabs(const char *filename, int num)
 {
     // File path, just read.
     FILE *fp = openFile(filename, "r");

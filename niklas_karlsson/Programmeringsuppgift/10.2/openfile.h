@@ -17,4 +17,4 @@
 #define BUF 250
 // definitions for the functions
 FILE *openFile(const char *filename, const char *flags);
-char replaceTabs(const char *filename, int num);
+void replaceTabs(const char *filename, int num);
