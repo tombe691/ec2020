@@ -1,6 +1,7 @@
 //upg 9.2 -undersöker om texten är palindrom
 // Nataliya Lisjo. 15.10.2020
---------------------------------------
+/*--------------------------------------*/
+
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
@@ -9,14 +10,15 @@
 //testa
 
 int main(){
-    char str[80];    
+    char str[80];  
+    
     printf("Skriv texten : \n");
-    scanf("%80s",&str);
+    scanf("%s",&str);
        remove_space(str);
        tolower_str(str,str);
      
-    int i = 0, k;             
-    int length = strlen(str)-1;                      // räckna texten längth, spara length
+    int i,    k;             
+    int length = strlen(str);                      // räckna texten längth, spara length
  
     int chek = 1;                                  
     for (i=0, k=length-1; i<k && chek>0; i++, k--)  // kolla first och sista bockstav
