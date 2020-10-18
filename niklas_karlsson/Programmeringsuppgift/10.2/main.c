@@ -11,7 +11,8 @@
 
 int main(void)
 {
-    static char filename[BUF + 1];
+    // Filename
+    static char filename[BUF];
     // Print to screen
     printf("Enter file to open: ");
     // Load string to filename

@@ -9,6 +9,7 @@
 // Our include file, since we need BUF var and othe
 #include "openfile.h"
 
+// Open a file based on filename and flags/mode
 FILE *openFile(const char *filename, const char *flags)
 {
     // File pointer
@@ -64,7 +65,7 @@ char *replaceTabs(const char *filename, int num)
         // Set it to 20.
         num = 20;
     }
-    
+
     // As long as character is not end of file
     while ((c = fgetc(fp)) != EOF)
     {
