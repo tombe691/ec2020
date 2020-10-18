@@ -1,0 +1,8 @@
+Lägg till följande rad för den inre while-satse:
+
+_Bool ta_bort = strlen(ny_rad) == strcspn(ny_rad, "0123456789");
+
+På de två ställen där man skall skriva den nya raden till den temporära filen lägger man till en test:
+
+if (!ta_bort)
+  fprintf(t, "%s\n", ny_rad);

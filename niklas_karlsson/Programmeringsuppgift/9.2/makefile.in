@@ -1,0 +1,2 @@
+main: main.c palindrome.c
+	gcc -o main main.c palindrome.c
