@@ -49,11 +49,12 @@ void buccaneer(const char str[])
             }
         }
         // printf("We been looping all the time.\n");
-        // is it a lower case consonant?
+        // is it a consonant?
         if (is_con)
         {
             // Adds the orignial consonant
             temp[c] = str[i];
+            // See if the character contians an upper case consonant
             if (isupper(str[i]))
             {
                 // add an upper case O
@@ -73,6 +74,7 @@ void buccaneer(const char str[])
         {
             // Could it be a simple vowel? :D or is it a number? Find out soon.
             temp[c] = str[i];
+            // just increase once please.
             c++;
         }
     }

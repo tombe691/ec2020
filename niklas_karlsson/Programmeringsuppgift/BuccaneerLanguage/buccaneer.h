@@ -8,5 +8,5 @@
  * @Compile Unix: make
  */
 
-// It's more like "sjörövare" and not rövare. But whatever.
+// It's more like "sjörövare" and not "rövare". But whatever.
 void buccaneer(const char str[]);
