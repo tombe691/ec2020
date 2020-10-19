@@ -1,46 +1,48 @@
 /******************************************************************************
-* FILENAME     :  uppgift_10-2.c
+* FILENAME		: uppgift_10-2.c
 *
-* DESCRIPTION  :  Läs textfil, skriv ut innehållet i kommandofönstret
+* Encoding		: UTF-8
 *
-* FUNCTIONS    :  
+* DESCRIPTION	: Read a text file, show in terminal.
 *
-* NOTES        :  
+* FUNCTIONS		: Replace horizontal tabulation (HT) with three spaces.
 *
-*                 Copyright L.Kruger 2020.  All rights reserved.
+* NOTES			: Menu language - Swedish
 *
-* AUTHOR       :  Leif Krüger
+*				  Copyright L.Krüger 2020.  All rights reserved.
 *
-* CHANGES      :
+* AUTHOR		: Leif Krüger, info@leifkruger.se
 *
-* REF NO         VERSION      DATE (YYMMDD)  WHO      DETAIL
+* CHANGES
+*
+* REF NO	VERSION		DATE (YYMMDD)  WHO	DETAIL
 * -----------------------------------------------------------------------------
-*                 1           2020-10-18     LK       Start date
+*			1           2020-10-18     LK   Start date
 *
-*
+*			2           2020-10-19     LK   Modify comments & variable names
 *******************************************************************************
 */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-void main() {
-	char textfil[100];
+int main() {
+	char selectedFile[100];
 	printf("Ange filens namn du vill skriva ut i terminalfönstret: ");
-	scanf("%s", textfil);
-	FILE *infil = fopen(textfil, "r"); //Öppna filen "textfil" för läsning
-	if (infil == NULL) {
-		printf("Kan inte hitta filen %s", textfil);
+	scanf("%s", selectedFile);
+	FILE *infile = fopen(selectedFile, "r"); //Open file, reading mode
+	if (infile == NULL) {
+		printf("Kan tyvärr inte hitta filen %s", selectedFile);
 		exit(1);
 	}
 	int c;
-	while ((c = fgetc(infil)) != EOF) { //
-		if (c == '\t') { //Om tab skriv ut 3 st mellanslag
+	while ((c = fgetc(infile)) != EOF) { //
+		if (c == '\t') { //Replace tab character with 3 spaces
 			printf("   ");
 		} else {
 			putchar(c);
 		}
 	}
-	fclose(infil);
-	return;
+	fclose(infile);
+	return 0;
 }
