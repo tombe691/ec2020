@@ -1,0 +1,8 @@
+Surfa Mini
+95 200 0.45 1 50
+Ring Liten
+99 60 0.49 2 39
+Surfa Fast
+245 0 0 6 50
+Maxsurf
+299.00 500 0.50 10.00 40.00

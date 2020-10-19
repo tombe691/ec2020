@@ -1,0 +1,2 @@
+main: main.c buccaneer.c
+	gcc -o main.exe main.c buccaneer.c
