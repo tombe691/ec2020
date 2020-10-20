@@ -89,3 +89,5 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 *.txz
+*.xml
+*.iml
