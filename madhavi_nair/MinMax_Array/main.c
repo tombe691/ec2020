@@ -11,7 +11,7 @@
 int main()
 {
     int number_array[50], numarray_size, min, max;
-
+    // Taking the size of array from user
     printf("Enter size for the array\n");
     scanf("%d",&numarray_size);
 
@@ -20,8 +20,9 @@ int main()
         printf("Enter the value for number_array[%d]=  ",start);
         scanf("%d",&number_array[start]);
     }
-
+    // calling the function min_max
     min_max(number_array,numarray_size,&min,&max);
+    //Displaying the values returned
     printf("Min value = %d Max value = %d",min,max);
     return 0;
 }
