@@ -28,21 +28,22 @@ int main() {
         /* Read the tecken to be read from the file
          * using fgets() method */
         while ((tecken = fgetc(textfil)) != EOF) { /* Copy over contents of text into tecken until EOF is reached */
-            if (tecken == '\t') {               /* Searches for and replaces all tabs with 3 spaces */
+            if (tecken == '\t') {                  /* Searches for and replaces all tabs with 3 spaces */
                 printf("   ");
-                tab++;		/* Keeps track of how many tabs are replaced */
-            } else { /* Prints out the new content when no more tabs are detected */
+                tab++; /* Keeps track of how many tabs are replaced */
+            } else {
                 putchar(tecken);
                 character++;
             }
         }
         /* Make sure EOF was actually reached */
-        if (feof(textfil))
+        if (feof(textfil)) {
             printf("\nEnd of file reached.");
-        else
+        } else {
             printf("\n Something went wrong.");
-	}
-
-        fclose(textfil); /* Stänger filen och tömmer ev. buffertar */
-        printf("\nTabs replaced: %d \nTotal ANSI characters: %d", tab, character);
+        }
     }
+
+    fclose(textfil); /* Stänger filen och tömmer ev. buffertar */
+    printf("\nTabs replaced: %d \nTotal ANSI characters: %d", tab, character);
+}
