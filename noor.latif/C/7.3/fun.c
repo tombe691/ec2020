@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* Takes a digit from the user and returns it as a double value. */
-double getDouble(){
+double getDouble() {
     double x;
     scanf("%lf", &x);
     return x;
@@ -21,6 +21,6 @@ double areaCircle(double radius) {
 double areaTriangle(double height, double base) {
     return height * base / 2;
 }
-void kudos(char *namn){
+void kudos(char *namn) {
     printf("\nTack till följande kamrater för hjälp: %s", namn);
 }

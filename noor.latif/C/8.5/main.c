@@ -1,9 +1,9 @@
 /*
  ============================================================
- Name		: Uppgift 8.5
- Author		: Noor Latif
+ Name       : Uppgift 8.5
+ Author     : Noor Latif
  Description: Functions to calculate sum of arrays and squared sum arrays.
- Date		: 2020-10-07
+ Date       : 2020-10-07
  ============================================================
  */
 
