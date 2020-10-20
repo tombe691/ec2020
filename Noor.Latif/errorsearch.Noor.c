@@ -29,9 +29,9 @@ int main()
     int hoursPerWeek;
     double hourlyWages;
     printf("Enter hours per week: \n");
-	scanf("%d\n", &hoursPerWeek);
+	scanf("%d", &hoursPerWeek);
     printf("Enter hourly wages (kr): \n");
-    scanf("%lf\n", &hourlyWages);
+    scanf("%lf", &hourlyWages);
 
 	// Calculate weekly wage
 	double weeklyWages = hoursPerWeek * hourlyWages;
