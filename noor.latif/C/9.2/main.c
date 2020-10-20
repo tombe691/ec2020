@@ -1,12 +1,11 @@
-/*	___________________________________
- *	Name		: uppgift.9.2.c
- *	Author		: Noor Latif, noor@latif.se
- *	Date		: 2020-10-14
- *	------------Description------------
- *	Checks if an entered text is a palindrome.
- *			Supports whitespaces.
- *	___________________________________
- */
+/* _____________________________________________________
+ * Name    : uppgift.9.2.c
+ * Author  : Noor Latif, noor@latif.se
+ * Date    : 2020-10-14
+ * -------------------- Description --------------------
+ *          Checks if an entered text is a palindrome.
+ *                  Supports whitespaces.
+ * _____________________________________________________ */
 #include <limits.h>
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,9 +1,3 @@
-
-#include <stdio.h>
-#include <ctype.h>
-#include <stdlib.h>
-#define passLength 50
-
  /*
  ============================================================================
  Name		: password_check.c
@@ -12,6 +6,10 @@
  Date		: 2020-10-06
  ============================================================================
  */
+#include <stdio.h>
+#include <ctype.h>
+#include <stdlib.h>
+#define passLength 50
 
 int main(){
 	char password[passLength];

@@ -1,12 +1,11 @@
-/*	___________________________________
- *	Name		: uppgift.10.2.c
- *	Author		: Noor Latif, noor@latif.se
- *	Date		: 2020-10-17
- *	------------Description------------
+/* _____________________________________________________
+ * Name    : uppgift.10.2.c
+ * Author  : Noor Latif, noor@latif.se
+ * Date    : 2020-10-17
+ * -------------------- Description --------------------
  *	Searches for and replaces all tabs with 3 spaces in chosen text file.
- *	Whilst counting the actions made. 
- *	___________________________________
- */
+ *	                Whilst counting the actions made. 
+ * _____________________________________________________ */
 #include <stdio.h>
 
 int main() {
