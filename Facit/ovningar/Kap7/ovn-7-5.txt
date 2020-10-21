@@ -1,0 +1,7 @@
+Utskriften blir
+a=1 b=1 c=1
+a=3 b=1 c=1
+Detta beror på att variablen c i funktionen f nu kommer att 
+tilldelas värdet 0 varje gång f anropas. 
+När det var en initiering skedde initieringen bara en enda gång,
+innan f anropades första gången.
