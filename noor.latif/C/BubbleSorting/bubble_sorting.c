@@ -1,11 +1,17 @@
-
+/* _____________________________________________________
+ * Name    : Bubble Sorting style
+ * Author  : Noor Latif, noor@latif.se
+ * Date    : 2020-10-21
+ * ------------Description------------
+ * Generates random array values and sorts them by size
+ * _____________________________________________________ */
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
 int main(void) {
-	int sorted, tmp;
+    int sorted, tmp;
     int arrsize = 50;
     int arr[arrsize];
     srand(time(NULL));
