@@ -48,22 +48,3 @@ int main()
 	fclose(infile);
 	return 0;   
 }
-
-/*
-void minmaxNumber(double a[], int n)
-{
- 	double min, max;
-	min=a[0], max=a[0];
-	for(int i=1; i<n; i++) {
-		if(min>a[i]) {
-			min=a[i];
-		}   
-		if(max<a[i]) {
-			max=a[i];
-		}       
-    }
-    
-    printf("in-värde: %.2lf \n", min);
-    printf("Max-värde: %.2lf \n", max);
-}
-*/
