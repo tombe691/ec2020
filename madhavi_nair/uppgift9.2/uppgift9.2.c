@@ -29,6 +29,7 @@ int main()
         {
             temp_store= reverse_str[start];
             reverse_str[start]= reverse_str[end];
+            reverse_str[end]=temp_store;
             start++;
             end--;
         }
