@@ -17,7 +17,7 @@
 
 #include <stdio.h> //Include stdio header file
 
-double main()  
+int main()  
 {
 	// Define and initialize variables
 	int hoursPerWeek = 35; //Semicolon
