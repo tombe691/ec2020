@@ -9,7 +9,7 @@
 *
 * NOTES			: Menu language - Swedish
 *
-*				  Copyright L.Krüger 2020.  All rights reserved.
+* 				Copyright L.Krüger 2020.  All rights reserved.
 *
 * AUTHOR		: Leif Krüger, info@leifkruger.se
 *
@@ -30,12 +30,12 @@ int main() {
 	char selectedFile[N];
 	printf("Ange filens namn du vill ta bort tab och ersätta med 3 mellanslag: ");
 	scanf("%s", selectedFile);
+	//Read and manipulation section
 	FILE *infile = fopen(selectedFile, "r"); //Open file, reading mode
 	if (infile == NULL) {
 		printf("Kan tyvärr inte hitta filen %s", selectedFile);
 		exit(1);
 	}
-
 	char tempFile[1000]; //Temporary array
 	int character;
 	int i = 0; //Index counter for temporary array
@@ -54,12 +54,12 @@ int main() {
 	}
 	tempFile[i] = '\0'; //Insert null character
 	fclose(infile); 
-
-	FILE *resultatFile = fopen("temp.txt", "w"); //Open new file for writing
+	//Store and cleaning section
+	FILE *resultatFile = fopen("temp.txt", "w"); //Open temp file for writing
 	fputs(tempFile, resultatFile); //Store file
 	fclose(resultatFile);
 	remove("selectedFile"); //Delete original file
-	char oldfileName[] = "temp.txt"; //Old temporary file
+	char oldfileName[] = "temp.txt"; //Read old temporary file name
 	rename(oldfileName, selectedFile); //Rename temporary file to original file
 	return 0;
 }
