@@ -28,9 +28,9 @@
 #include <stdio.h>
 
 // It sure works with double but doesn't make much sense to return a double value.
-// since we only return a zero (0) anyway
-// If under POSIX and attempt to return 3.14, the calling process will almost
-// always see 255. Just change to int since we return 0 anyway.
+// since we only return a zero (0) value anyway
+// If under POSIX and attempt to return a double value, i.e return 3.14
+// the calling process will almost always see 255.
 int main(void)
 {
 	// Define and initialize variables
@@ -42,7 +42,7 @@ int main(void)
 	// Changed from comparison to assignment
 	weeklyWages = hoursPerWeek * hourlyWages;
 
-	// Changed to match standard i/o and not "manipulators"
+	// Changed to match standard i/o
 	// Also printing results with 2 decimals.
 	printf("The weekly wages will be: %.2lf kr\n", weeklyWages);
 	printf("Given an hourly wage of: %.2lf kr\n", hourlyWages);
