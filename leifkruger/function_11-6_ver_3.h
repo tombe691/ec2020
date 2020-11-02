@@ -1,1 +1,0 @@
-void minmaxNumber(double *minmax, int n, double *minNumber, double *maxNumber);
