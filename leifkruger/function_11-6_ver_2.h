@@ -1,1 +1,0 @@
-void minmaxNumber(double a[], int n);
