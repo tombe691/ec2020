@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/madha/Desktop/EC_C++/ohm_law/main.cpp
+iostream
+-
+ohms_functions.h
+C:/Users/madha/Desktop/EC_C++/ohm_law/ohms_functions.h
+
+C:/Users/madha/Desktop/EC_C++/ohm_law/ohms_functions.h
+
