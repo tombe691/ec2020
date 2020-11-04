@@ -1,0 +1,6 @@
+Detta ar en enkel textrad.
+Hej	hopp!
+Detta ar rad 3.
+	AAAABbbbbb.
+Rad 5.
+Sex laxar i en laxask.

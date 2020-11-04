@@ -1,0 +1,1 @@
+void min_max(double *f, int n, double*pMin, double *pMax);
