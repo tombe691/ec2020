@@ -1,0 +1,3 @@
+/home/leif/Dokument/c/ec2020/leifkruger/cpp-code/uppgift4-4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/leif/Dokument/c/ec2020/leifkruger/cpp-code/uppgift4-4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/leif/Dokument/c/ec2020/leifkruger/cpp-code/uppgift4-4/cmake-build-debug/CMakeFiles/uppgift4_4.dir
