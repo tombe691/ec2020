@@ -8,7 +8,7 @@ DESCRIPTION		Calculate Voltage, Resistance, Current.
 
 FUNCTIONS
 
-NOTES			Menu language - Swedish
+NOTES			Menu language - English
 
 Compiler		g++ 9.3.0 amd64 running @ Ubuntu 20.04 LTS
 
