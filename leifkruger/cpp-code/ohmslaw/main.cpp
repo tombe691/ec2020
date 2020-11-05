@@ -4,7 +4,7 @@ FILENAME		ohmslaw.cpp
 
 Encoding		UTF-8
 
-DESCRIPTION		.Calculate Volt, Resistance, Ampere.
+DESCRIPTION		Calculate Volt, Resistance, Ampere.
 
 FUNCTIONS
 
