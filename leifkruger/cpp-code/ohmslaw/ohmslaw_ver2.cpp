@@ -23,11 +23,13 @@ CHANGES
 REF NO	VERSION		DATE (YYMMDD)	WHO	DETAIL
 -------------------------------------------------------------------------------
 		1			2020-11-04		LK	Start date
-		2			2020-11-05		LK	Uses more general functions 
+		2			2020-11-05		LK	Uses more general functions
+		3			2020-11-06		LK	Use of INT_MAX in function checkInput
 *******************************************************************************
 */
 
 #include <iostream>
+#include <climits>
 using namespace std;
 
 void checkInput(string quantity, double *uriVariable);
@@ -81,7 +83,7 @@ int main() {
 void checkInput(string quantity, double *uriVariable) {
     do {
 		cin.clear(); // clear the input stream
-        cin.ignore(100, '\n'); // ignore remaining input
+        cin.ignore(INT_MAX, '\n'); // ignore remaining input
 		cout << quantity << "? ";
         cin >> *uriVariable;
     }
