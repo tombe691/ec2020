@@ -60,7 +60,7 @@ class degree
         }
 
     private:
-        // these could be public. But I dont want them to be now.
+        // These could be public. But I dont want them to be now.
         // With other words, I don't want them to be callable outside the class.
         double fahrenheit2celsius(double fahrenheit);
         double celsius2fahrenheit(double celsius);
