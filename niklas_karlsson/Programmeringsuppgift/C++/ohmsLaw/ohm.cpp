@@ -1,3 +1,10 @@
+// File: ohm.cpp
+// Summary: Main function for ohms calculation
+// Version: 1.11b
+// Owner: Niklas Karlsson
+// ---------------------------------------------------------------
+// Log: 2020-11-06 Created the file. Niklas
+
 #include "ohmslaw.hpp"
 
 using namespace std;

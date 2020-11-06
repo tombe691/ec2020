@@ -1,3 +1,10 @@
+// File: ohmslaw.cpp
+// Summary: Class functions for calculating ohms law.
+// Version: 1.11b
+// Owner: Niklas Karlsson
+// ---------------------------------------------------------------
+// Log: 2020-11-06 Created the file. Niklas
+
 #include "ohmslaw.hpp"
 
 // Constructor
