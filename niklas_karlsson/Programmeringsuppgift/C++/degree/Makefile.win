@@ -1,0 +1,2 @@
+degree: main.cpp degree.cpp
+	g++ main.cpp degree.cpp -o degree.exe
