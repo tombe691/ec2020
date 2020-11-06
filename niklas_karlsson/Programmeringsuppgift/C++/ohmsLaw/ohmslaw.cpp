@@ -11,126 +11,126 @@ ohmsLaw::ohmsLaw(void)
 // Destructor
 ohmsLaw::~ohmsLaw(void)
 {
-	// Reset to zero
-	if ((ohms.R == 0) && (ohms.I == 0) && (ohms.P == 0) && (ohms.U == 0))
+    // Reset to zero
+    if ((ohms.R == 0) && (ohms.I == 0) && (ohms.P == 0) && (ohms.U == 0))
     {
-		cout << "Everything had been reset. Please try again!" << endl;
-	}
+        cout << "Everything had been reset. Please try again!" << endl;
+    }
     else
     {
-		// with impedance / ampere
-		if ((ohms.R > 0) && (ohms.I > 0))
+        // with impedance / ampere
+        if ((ohms.R > 0) && (ohms.I > 0))
         {
-			if (ohms.U == 0)
+            if (ohms.U == 0)
             {
-				// U = R * I
-				ohms.U = ohms.R * ohms.I;
-			}
+                // U = R * I
+                ohms.U = ohms.R * ohms.I;
+            }
 
-			if (ohms.P == 0)
+            if (ohms.P == 0)
             {
-				// P = R * (I^2)
-				ohms.P = ohms.R * pow(ohms.I, 2);
-			}
-		}
+                // P = R * (I^2)
+                ohms.P = ohms.R * pow(ohms.I, 2);
+            }
+        }
         else if ((ohms.U > 0) && (ohms.I > 0))
         {
-			if (ohms.R == 0)
+            if (ohms.R == 0)
             {
-				// R = U / I
-				ohms.R = ohms.U / ohms.I;
-			}
+                // R = U / I
+                ohms.R = ohms.U / ohms.I;
+            }
 
-			if (ohms.P == 0)
+            if (ohms.P == 0)
             {
-				// P = U * I
-				ohms.P = ohms.U * ohms.I;
-			}
-		}
+                // P = U * I
+                ohms.P = ohms.U * ohms.I;
+            }
+        }
         else if ((ohms.P > 0) && (ohms.I > 0))
         {
-			if (ohms.R == 0)
+            if (ohms.R == 0)
             {
-				// R = P / (I^2)
-				ohms.R = ohms.P / pow(ohms.I, 2);
-			}
+                // R = P / (I^2)
+                ohms.R = ohms.P / pow(ohms.I, 2);
+            }
 
-			if (ohms.U == 0)
+            if (ohms.U == 0)
             {
-				// U = P / I
-				ohms.U = ohms.P / ohms.I;
-			}
-		}
+                // U = P / I
+                ohms.U = ohms.P / ohms.I;
+            }
+        }
         else if ((ohms.U > 0) && (ohms.P > 0))
         {
-			if (ohms.I == 0)
+            if (ohms.I == 0)
             {
-				// I = P / U
-				ohms.I = ohms.P / ohms.U;
-			}
+                // I = P / U
+                ohms.I = ohms.P / ohms.U;
+            }
 
-			if (ohms.R == 0)
+            if (ohms.R == 0)
             {
-				// R = (U^2) / P
-				ohms.R = pow(ohms.U, 2) / ohms.P;
-			}
-		}
+                // R = (U^2) / P
+                ohms.R = pow(ohms.U, 2) / ohms.P;
+            }
+        }
         else if ((ohms.R > 0) && (ohms.P > 0))
         {
-			if (ohms.I == 0)
+            if (ohms.I == 0)
             {
-				// I = sqrt(P / R)
-				ohms.I = sqrt(ohms.P / ohms.R);
-			}
+                // I = sqrt(P / R)
+                ohms.I = sqrt(ohms.P / ohms.R);
+            }
 
-			if (ohms.U == 0)
+            if (ohms.U == 0)
             {
-				// U = sqrt(P * R);
-				ohms.U = sqrt(ohms.P * ohms.R);
-			}
-		}
+                // U = sqrt(P * R);
+                ohms.U = sqrt(ohms.P * ohms.R);
+            }
+        }
         else if ((ohms.R > 0) && (ohms.U > 0))
         {
-			if (ohms.I == 0)
+            if (ohms.I == 0)
             {
-				// I = U / R
-				ohms.I = ohms.U / ohms.R;
-			}
+                // I = U / R
+                ohms.I = ohms.U / ohms.R;
+            }
 
-			if (ohms.P == 0)
+            if (ohms.P == 0)
             {
-				// P = (U^2) / R
-				ohms.P = pow(ohms.U, 2) / ohms.R;
-			}
-		}
+                // P = (U^2) / R
+                ohms.P = pow(ohms.U, 2) / ohms.R;
+            }
+        }
 
-		cout << "ohms law says: " << endl
-			 << "Resistance is: " << ohms.R << endl
-			 << "Ampere is: " << ohms.I << endl
-			 << "Watt is: " << ohms.P << endl
-			 << "Voltage is: " << ohms.U << endl;
-	}
+        cout << "ohms law says: " << endl
+             << "Resistance is: " << ohms.R << endl
+             << "Ampere is: " << ohms.I << endl
+             << "Watt is: " << ohms.P << endl
+             << "Voltage is: " << ohms.U << endl;
+    }
 
     // We done. Reset it.
-	ohms.R = 0;
-	ohms.I = 0;
-	ohms.P = 0;
-	ohms.U = 0;
+    ohms.R = 0;
+    ohms.I = 0;
+    ohms.P = 0;
+    ohms.U = 0;
 }
 
 int ohmsLaw::menu(int exclude)
 {
-	int value;
+    int value;
 
-	// 1 = Resistance   R
-	// 2 = Amps         I
-	// 3 = Watt         P
-	// 4 = Volt         U
+    // 1 = Resistance   R
+    // 2 = Amps         I
+    // 3 = Watt         P
+    // 4 = Volt         U
 
-	cout << "1. (R) Resistance" << endl
-		 << "2. (I) Ampere" << endl
-		 << "3. (P) Watt" << endl
-		 << "4. (U) Voltage" << endl;
+    cout << "1. (R) Resistance" << endl
+         << "2. (I) Ampere" << endl
+         << "3. (P) Watt" << endl
+         << "4. (U) Voltage" << endl;
 
     // Wait for input.
     cin >> value;
@@ -138,8 +138,8 @@ int ohmsLaw::menu(int exclude)
     // If any error occurred.
     while (cin.fail())
     {
-		cout << "You typed \"" << value << "\" instead of a number." << endl;
-		cout << "Please try again." << endl;
+        cout << "You typed \"" << value << "\" instead of a number." << endl;
+        cout << "Please try again." << endl;
         // Clear buffer and erase error flag
         cinner();
         cin >> value; // Try again
