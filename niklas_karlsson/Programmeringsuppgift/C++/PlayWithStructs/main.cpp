@@ -1,6 +1,6 @@
-// File: ohm.cpp
-// Summary: Main function for ohms calculation
-// Version: 1.11b
+// File: main.cpp
+// Summary: Main function for some structs
+// Version: 1.11
 // Owner: Niklas Karlsson
 // ---------------------------------------------------------------
 // Log: 2020-11-06 Created the file. Niklas
