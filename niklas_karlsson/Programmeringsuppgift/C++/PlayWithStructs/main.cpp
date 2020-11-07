@@ -45,7 +45,7 @@ string randomString(unsigned int minLength, unsigned int length);
 int main(void)
 {
     srand(unsigned(time(NULL)));
-	struct Node *head = new Node;
+    struct Node *head = new Node;
 
     initNode(head, 1, randomString(3, 15), doubleRand());
 
@@ -137,7 +137,7 @@ string randomString(unsigned int minLength, unsigned int maxLength)
 	// Want some characters to occur more than others.
 	// Hence why I use more of some than others..
 	static const char con[] = "BBBbbbCCccDDDdddFFffGgHHhhJJJjjjKKkkkLLLlll"
-							  "MMMmmmNNNnnnPPppQqRRRrrrSSSSssssTTttVVvvWwXxZz";
+        "MMMmmmNNNnnnPPppQqRRRrrrSSSSssssTTttVVvvWwXxZz";
 	static const char vow[] = "AAAaaaEEEeeeIIiiOOOoooUuYy";
 
 	// Fetch length of the arrays. No need for manual input.
