@@ -1,12 +1,12 @@
 /*
 *******************************************************************************
-FILENAME		ohmslaw.cpp
+FILENAME		ohmslaw_ver2.cpp
 
 Encoding		UTF-8
 
 DESCRIPTION		Calculate Voltage, Resistance, Current.
 
-FUNCTIONS
+FUNCTIONS		Using cin.fail etc. Using switch-loop.
 
 NOTES			Menu language - English
 
