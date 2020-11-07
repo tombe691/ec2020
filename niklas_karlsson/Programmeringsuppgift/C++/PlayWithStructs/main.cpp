@@ -68,10 +68,10 @@ void initNode(struct Node *head, int id, string player, double howLong)
 {
     // Has to be nothing else. This is the first entry ever!
     // Must feel so special right?
-	head->id = id;
+    head->id = id;
     head->player = player;
     head->howLong = howLong;
-	head->next = NULL;
+    head->next = NULL;
 }
 
 /*
@@ -138,6 +138,7 @@ string randomString(unsigned int minLength, unsigned int maxLength)
 	// Hence why I use more of some than others..
 	static const char con[] = "BBBbbbCCccDDDdddFFffGgHHhhJJJjjjKKkkkLLLlll"
         "MMMmmmNNNnnnPPppQqRRRrrrSSSSssssTTttVVvvWwXxZz";
+    // This looks like someone got a hammer on their toes?
 	static const char vow[] = "AAAaaaEEEeeeIIiiOOOoooUuYy";
 
 	// Fetch length of the arrays. No need for manual input.
