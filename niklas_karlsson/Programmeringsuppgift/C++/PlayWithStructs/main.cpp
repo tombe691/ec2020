@@ -138,7 +138,7 @@ string randomString(unsigned int minLength, unsigned int maxLength)
 	// Hence why I use more of some than others..
 	static const char con[] = "BBBbbbCCccDDDdddFFffGgHHhhJJJjjjKKkkkLLLlll"
         "MMMmmmNNNnnnPPppQqRRRrrrSSSSssssTTttVVvvWwXxZz";
-    // This looks like someone got a hammer on their toes?
+	// This looks like someone got a hammer on their toes?
 	static const char vow[] = "AAAaaaEEEeeeIIiiOOOoooUuYy";
 
 	// Fetch length of the arrays. No need for manual input.
@@ -161,27 +161,27 @@ string randomString(unsigned int minLength, unsigned int maxLength)
 	{
 		for (int v = 0, c = 0; i == 1; c++, v++)
 		{
-            if (pass[0] == con[c])
-            {
-                pass[i] = vow[rand() % vowLength];
-                // cout << "pass[0] = " << pass[0] << "; con[" << c << "] = " << con[c] << ";" << endl;
-                break;
-            }
-            else if (pass[0] == vow[v])
-            {
-                pass[i] = con[rand() % conLength];
-                // cout << "pass[0] = " << pass[0] << "; vow[" << v << "] = " << vow[v] << ";" << endl;
-                break;
-            }
-        }
-        // If con or vow.. fifty-fifty... meh
-        pass[i] = ((rand() % 2 == 0) ? con[rand() % conLength] :
-                        vow[rand() % vowLength]);
-    }
+			if (pass[0] == con[c])
+			{
+				pass[i] = vow[rand() % vowLength];
+				// cout << "pass[0] = " << pass[0] << "; con[" << c << "] = " << con[c] << ";" << endl;
+				break;
+			}
+			else if (pass[0] == vow[v])
+			{
+				pass[i] = con[rand() % conLength];
+				// cout << "pass[0] = " << pass[0] << "; vow[" << v << "] = " << vow[v] << ";" << endl;
+				break;
+			}
+		}
+		// If con or vow.. fifty-fifty... meh
+		pass[i] = ((rand() % 2 == 0) ? con[rand() % conLength] :
+				  vow[rand() % vowLength]);
+	}
 
-    // hence why we add + 1 on the pass variable.
-    pass[i] = '\0';
+	// hence why we add + 1 on the pass variable.
+	pass[i] = '\0';
 
-    // cout << "Word is: " << pass << endl;
-    return pass;
+	// cout << "Word is: " << pass << endl;
+	return pass;
 }
