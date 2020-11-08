@@ -164,13 +164,15 @@ string randomString(unsigned int minLength, unsigned int maxLength)
 			if (pass[0] == con[c])
 			{
 				pass[i] = vow[rand() % vowLength];
-				// cout << "pass[0] = " << pass[0] << "; con[" << c << "] = " << con[c] << ";" << endl;
+				// cout << "pass[0] = " << pass[0] << "; con[" << c << "] = "
+                // << con[c] << ";" << endl;
 				break;
 			}
 			else if (pass[0] == vow[v])
 			{
 				pass[i] = con[rand() % conLength];
-				// cout << "pass[0] = " << pass[0] << "; vow[" << v << "] = " << vow[v] << ";" << endl;
+				// cout << "pass[0] = " << pass[0] << "; vow[" << v << "] = "
+                // << vow[v] << ";" << endl;
 				break;
 			}
 		}
