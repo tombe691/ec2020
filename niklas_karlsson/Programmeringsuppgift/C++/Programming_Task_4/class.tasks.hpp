@@ -1,3 +1,10 @@
+// File: class.tasks.hpp
+// Summary: Headers with class functions for programming task 4
+// Version: 1.11
+// Owner: Niklas Karlsson
+// ---------------------------------------------------------------
+// Log: 2020-11-06 Created the file. Niklas
+
 #include <string>
 #include <iostream>
 #include <conio.h>

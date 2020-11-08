@@ -1,8 +1,10 @@
-// I was going to deal with some general isssues but i cant deal
-// with the overflow from cin.
-// if we cin.clear() it jumps over one cin <<
-// and takes values that shouldnt be there.
-// this is how far i got and it should be enough..
+// File: class.tasks.cpp
+// Summary: Class functions for programming task 4
+// Version: 1.11
+// Owner: Niklas Karlsson
+// ---------------------------------------------------------------
+// Log: 2020-11-06 Created the file. Niklas
+
 #include "class.tasks.hpp"
 
 using namespace std;

@@ -1,5 +1,5 @@
-// File: ohm.cpp
-// Summary: Main function for ohms calculation
+// File: main.cpp
+// Summary: Main function for programming task 4
 // Version: 1.11b
 // Owner: Niklas Karlsson
 // ---------------------------------------------------------------
