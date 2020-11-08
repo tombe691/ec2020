@@ -28,10 +28,10 @@ class degree
          */
         degree(void);
         ~degree(void);
-        // Questions for converting celsius to fahrenheit
+        // Questions for converting centigrad to fahrenheit
         void fahrenheit(void);
-        // Questions for converting fahrenheit to celsius
-        void celsius(void);
+        // Questions for converting fahrenheit to centigrad
+        void centigrad(void);
         // Questions if user want to continue or not.
         void yesNo(void);
         // Simple check if the input is digit or wrong input
@@ -62,6 +62,6 @@ class degree
     private:
         // These could be public. But I dont want them to be now.
         // With other words, I don't want them to be callable outside the class.
-        double fahrenheit2celsius(double fahrenheit);
-        double celsius2fahrenheit(double celsius);
+        double fahrenheit2centigrad(double fahrenheit);
+        double centigrad2fahrenheit(double centigrad);
 };

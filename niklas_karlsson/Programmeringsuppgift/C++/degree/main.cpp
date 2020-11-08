@@ -18,30 +18,33 @@
  */
 int main(void)
 {
+    // initialize the class and variables.
     degree degrees;
-    char ch;
+    char ch;    // to store character.
 
     while (true)
     {
         // If we gonna pass this questions. (For yes / no later on)
         if (degrees.getPassStatus() == false)
         {
-            cout << "To convert fahrenheit to celsius type F" << endl
-                 << "or to convert celsius to fahrenheit type C: " << endl;
+            cout << "To convert fahrenheit to centigrad type F" << endl
+                 << "or to convert centigrad to fahrenheit type C: " << endl;
             cin >> ch;
 
-            // To convert fahrenheit to celsius
+            // To convert fahrenheit to centigrad
             if (ch == 'f' || ch == 'F')
             {
                 degrees.fahrenheit();
                 degrees.changePassStatus(true);
+                // Skip everthing below and go back the loop.
                 continue;
             }
-            // To convert celsius to fahrenheit
+            // To convert centigrad to fahrenheit
             else if ((ch == 'c' || ch == 'C'))
             {
-                degrees.celsius();
+                degrees.centigrad();
                 degrees.changePassStatus(true);
+                // Skip everthing below and go back the loop.
                 continue;
             }
             // anything other than the characters c, C, f or F
