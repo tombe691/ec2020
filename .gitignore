@@ -23,6 +23,7 @@
 
 .vscode/*
 .vs/*
+.vs/
 .vscode/settings.json
 .vscode/tasks.json
 .vscode/launch.json
@@ -99,6 +100,11 @@ $RECYCLE.BIN/
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
 
 # Generated files
 .idea/**/contentModel.xml
