@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <time.h>
-#include "flip.h"
+#include "minmax.h"
 
 int main(void)
 {
@@ -46,6 +46,9 @@ int main(void)
     return 0;
 }
 
+/*
+ * Function for th minimum and Maxmimum
+ */
 void minMax(double *in, int length, double *low, double *high)
 {
     *low = *in, *high = *in;

@@ -1,0 +1,2 @@
+programmingtask: main.cpp class.tasks.cpp
+	g++ main.cpp class.tasks.cpp -o programmingtasks.exe

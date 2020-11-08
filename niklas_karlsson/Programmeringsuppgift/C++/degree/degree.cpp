@@ -24,7 +24,7 @@ degree::~degree(void)
 }
 
 /*
- * Function for calling the fahrenheit to celsius questions
+ * Function for calling the fahrenheit to centigrad questions
  * The function then call the mathematical equations.
  */
 void degree::fahrenheit(void)
@@ -42,19 +42,19 @@ void degree::fahrenheit(void)
         cin >> fahrenheit;
     }
 
-    cout << fahrenheit << " degree fahrenheit is: " << fahrenheit2celsius(fahrenheit)
-         << " degree celsius!" << endl;
+    cout << fahrenheit << " degree fahrenheit is: " << fahrenheit2centigrad(fahrenheit)
+         << " degree centigrad!" << endl;
 }
 
 /*
- * Function for calling the celsius to fahrenheit questions
+ * Function for calling the centigrad to fahrenheit questions
  * The function then call the mathematical equations.
  */
-void degree::celsius(void)
+void degree::centigrad(void)
 {
-    double celsius;
-    cout << "Enter celsius: " << endl;
-    cin >> celsius;
+    double centigrad;
+    cout << "Enter centigrad: " << endl;
+    cin >> centigrad;
 
     while (cin.fail())
     {
@@ -62,10 +62,10 @@ void degree::celsius(void)
         cin.ignore(INT_MAX, '\n');
         cout << "Value must be a digit. Try again: " << endl;
 
-        cin >> celsius;
+        cin >> centigrad;
     }
 
-    cout << celsius << " degree celius is: " << celsius2fahrenheit(celsius)
+    cout << centigrad << " degree celius is: " << centigrad2fahrenheit(centigrad)
          << " degree fahrenheit!" << endl;
 }
 
@@ -153,17 +153,17 @@ void degree::isNum(char input, char acc[], int len)
 }
 
 /*
- * The calculation is made here for fahrenheit to celsius
+ * The calculation is made here for fahrenheit to centigrad
  */
-double degree::fahrenheit2celsius(double fahrenheit)
+double degree::fahrenheit2centigrad(double fahrenheit)
 {
     return (fahrenheit - 32) * 5 / 9;
 }
 
 /*
- * The calculation is made here for celsius 2 fahrenheit
+ * The calculation is made here for centigrad 2 fahrenheit
  */
-double degree::celsius2fahrenheit(double celsius)
+double degree::centigrad2fahrenheit(double centigrad)
 {
-    return (celsius * 9 / 5) + 32;
+    return (centigrad * 9 / 5) + 32;
 }
