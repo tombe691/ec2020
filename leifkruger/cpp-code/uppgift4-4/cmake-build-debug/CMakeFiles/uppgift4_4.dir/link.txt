@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/uppgift4_4.dir/main.cpp.o  -o uppgift4_4 

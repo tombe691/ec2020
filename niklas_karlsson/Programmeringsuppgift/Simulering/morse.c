@@ -161,14 +161,16 @@ char textToMorse(char *text)
  */
 static char morseus(char *text)
 {
-    char buf[512];  // Just so it can fit. It's more than enough, I know.
+    // Just so it can fit. It's more than enough, I know.
+    char buf[512];
     // Copy text into the array.
     strcpy(buf, text);
 
     // Loop as long as its not the end character of a string.
     for (int i = 0; buf[i] != '\0'; i++)
     {
-        printf("%c", buf[i]); // Char in the i-position, use %c for character
+        // Char in the i-position, use %c for character
+        printf("%c", buf[i]);
 
         // Every X letter, we use a slighly longer response.
         // just to make it some authentic.
@@ -176,12 +178,16 @@ static char morseus(char *text)
         {
             // Now we sleep. How nice. But for how long?
             Sleep(middleMs);
+            // Beep aslong as sleep is active
+            Beep(900, middleMs);
 
             // Just back up to the loop again please.
             continue;
         }
         // "else"
         Sleep(shortMs);
+        // Beep aslong as sleep is active
+        Beep(900, shortMs);
     }
 }
 

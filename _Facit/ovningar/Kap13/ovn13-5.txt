@@ -1,0 +1,8 @@
+a) 
+Alla talen måste i värsta fall undersökas, dvs 100000 tal.
+
+b)
+2 upphöjt till 16 är lika med 65336 och 
+2 upphöjt till 17 är lika med 131072.
+
+Eftersom 65336 < 100000 < 131072 måste alltså högst 17 tal undersökas.
