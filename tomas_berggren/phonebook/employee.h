@@ -6,9 +6,25 @@
 #define PHONEBOOK_EMPLOYEE_H
 
 
-class employee {
+class Employee
+{
+        //gör synliga
+    public:
+        int Id;
+        char Name[25];
+        int Age;
+        long Salary;
+
+        // printname is not defined inside class definition
+        void printname();
+
+        void setId(int id);
+
+        // printid info defined inside class definition
+        void printinfo();
 
 };
+
 
 
 #endif //PHONEBOOK_EMPLOYEE_H
