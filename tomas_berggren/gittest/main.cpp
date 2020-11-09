@@ -2,7 +2,7 @@
 #include "test.h"
 
 int main() {
-    printText("Hello, World!");
+    printText("Hello, World! hej");
     printText("Goodbye, World!");
     return 0;
 }
