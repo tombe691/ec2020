@@ -1,7 +1,3 @@
-//
-// Created by leif on 2020-11-10.
-//
-
 #ifndef SPHERE_SPHERECLASS_H
 #define SPHERE_SPHERECLASS_H
 

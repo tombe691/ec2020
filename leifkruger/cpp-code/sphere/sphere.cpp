@@ -58,7 +58,8 @@ int main()
         newSphere.getVolume();          //Show calculation of volume
         newSphere.getArea();            //Show calculation of area
         cout << endl;
-        cout << "One more calculation? Enter one character except q (q = quit), ENTER ";
+        cout << "One more calculation? Enter one character except q (q = quit)"
+			<< ", ENTER ";
         cin >> chooseRunagain;
         cin.clear();
     } while (chooseRunagain != 'q');
