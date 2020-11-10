@@ -590,7 +590,7 @@ void tasks::fract(void)
         else
         {
             cout << "Beep boop, wrong input. Please try again." << endl
-                 << "Do you want to continue (Y/N): ";
+                 << "Do you want to do anther fraction? (Y/N): ";
             cin >> ch;
         }
     }
