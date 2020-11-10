@@ -19,8 +19,7 @@ degree::degree(void)
 // Destructor, accepts no arguments
 degree::~degree(void)
 {
-    cout << "Thank you for using this simple converter!"
-         << endl << "Have a happy period!" << endl;
+    cout << "Thank you for using this amazing converter!" << endl;
 }
 
 /*
@@ -85,7 +84,7 @@ void degree::yesNo(void)
         {
             changeExitStatus(true);
             changePassStatus(true);
-            break;
+            break;  // Exit this loop
         }
         // If user answers yes.
         else if (ch == 'y' || ch == 'Y')
@@ -117,7 +116,7 @@ void degree::yesNo(void)
  * acc for accepted characters.
  * len for length of array (number of elements)
  */
-void degree::isNum(char input, char acc[], int len)
+void degree::isNum(char input, string acc, int len)
 {
     if (isdigit(input))
     {
