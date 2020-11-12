@@ -33,16 +33,16 @@ using namespace std;
 
 int main() {
     employee employer[4]; //Skip index 0
-    float temp;
+    float tempCompensation;
     cout << endl;
     cout << "Employer " << endl;
     cout << "========" << endl;
     for (int i = 1; i < 4; i++) {
         cout << "Employer nr: " << i << endl;
         cout << "Enter compensation: ";
-        cin >> temp;
+        cin >> tempCompensation;
         employer[i].setId(i);
-        employer[i].setCompensation(temp);
+        employer[i].setCompensation(tempCompensation);
     }
     cout << endl;
     for (int i = 1; i < 4; i++) {
