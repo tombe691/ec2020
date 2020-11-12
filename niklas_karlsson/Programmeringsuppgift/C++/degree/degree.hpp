@@ -35,7 +35,7 @@ class degree
         // Questions if user want to continue or not.
         void yesNo(void);
         // Simple check if the input is digit or wrong input
-        void isNum(char input, char acc[], int len);
+        void isNum(char input, string acc, int len);
         // Change the pass status
         void changePassStatus(bool pass)
         {
