@@ -1,3 +1,8 @@
+// File: main.cpp
+// Summary: Main function for the sphere class.
+// Version: 1.0
+// Owner: Niklas Karlsson
+// ---------------------------------------------------------------
 #include <iostream>
 #include "sphere.hpp"
 

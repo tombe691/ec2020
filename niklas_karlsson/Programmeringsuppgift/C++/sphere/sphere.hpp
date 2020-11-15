@@ -1,3 +1,9 @@
+// File: sphere.hpp
+// Summary: Header / declarations for the spehre class.
+// Version: 1.0
+// Owner: Niklas Karlsson
+// ---------------------------------------------------------------
+
 #include <cmath>    // for pow() and asin.
 
 class Sphere

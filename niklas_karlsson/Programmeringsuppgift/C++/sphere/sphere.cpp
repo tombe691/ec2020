@@ -1,3 +1,9 @@
+// File: spehere.cpp
+// Summary: Class functions for sphere to get the volume and/or area
+// Version: 1.0
+// Owner: Niklas Karlsson
+// ---------------------------------------------------------------
+
 #include "sphere.hpp" // 'Sphere' has not been declared if not included
 
 // Funtiond to get the volume
