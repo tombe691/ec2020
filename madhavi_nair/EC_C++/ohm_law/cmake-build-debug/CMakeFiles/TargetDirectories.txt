@@ -1,3 +1,0 @@
-C:/Users/madha/Desktop/EC_C++/ohm_law/cmake-build-debug/CMakeFiles/ohm_law.dir
-C:/Users/madha/Desktop/EC_C++/ohm_law/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/madha/Desktop/EC_C++/ohm_law/cmake-build-debug/CMakeFiles/rebuild_cache.dir
