@@ -1,0 +1,46 @@
+/*
+*******************************************************************************
+FILENAME		Shape.cpp
+
+Encoding		UTF-8
+
+DESCRIPTION		Calculate volume and area of different shapes.
+
+FUNCTIONS
+
+NOTES			Menu language - English
+
+Compiler		g++ 9.3.0 amd64 running @ Ubuntu 20.04 LTS
+
+Lang dialect	ISO C++14 (g++ by default uses option '-std=gnu++14')
+
+				Copyright L.Krüger 2020. All rights reserved.
+
+AUTHOR			Leif Krüger, leif@leifkruger.se
+
+CHANGES
+
+REF NO	VERSION		DATE (YYMMDD)	WHO	DETAIL
+-------------------------------------------------------------------------------
+		1			2020-11-21		LK	Start date
+*******************************************************************************
+*/
+
+#include "Shape.h"
+
+double Shape::getArea() {
+    return 0;
+}
+
+double Shape::getVolume() {
+    return 0;
+}
+
+void Shape::getInput() {
+}
+
+void Shape::printArea() {
+}
+
+void Shape::printVolume() {
+}
