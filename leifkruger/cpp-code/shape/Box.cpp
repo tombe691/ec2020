@@ -29,12 +29,9 @@ REF NO	VERSION		DATE (YYMMDD)	WHO	DETAIL
 #include <iostream>
 #include "Box.h"
 
-using namespace std;
-
 Box::Box() {}
 
-//Box::Box(double _height, double _length, double _width)
-//: height(_height), length(_length), width(_width) {}
+Box::Box(double _height, double _length, double _width) : height(_height), length(_length), width(_width) {}
 
 double Box::getArea() {
     return 2 * (length * height + length * width + width * height);
@@ -58,5 +55,5 @@ void Box::printArea() {
 }
 
 void Box::printVolume() {
-    cout << " The volume is: " << getVolume() << endl;
+    cout << "The volume is: " << getVolume() << endl;
 }

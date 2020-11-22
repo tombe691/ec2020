@@ -38,7 +38,7 @@ private:
     double width;
 public:
     Box();
-    //Box(double _height, double _length, double _width);
+    Box(double _height, double _length, double _width);
     double getArea();
     double getVolume();
     void setInput();

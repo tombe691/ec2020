@@ -33,9 +33,9 @@ REF NO	VERSION		DATE (YYMMDD)	WHO	DETAIL
 
 int main() {
     string option;
-    cout << "\nCalculate volyme and area" << endl;
+    cout << "\nCalculate volume and area" << endl;
     cout << "=========================" << endl;
-    cout << "Which shape, box (b), cone (c) sphere (s) or q (quit)? ";
+    cout << "Which shape? Box (b), Cone (c) Sphere (s) or Quit (q)? ";
     cin >> option;
 
     if (option == "b") {

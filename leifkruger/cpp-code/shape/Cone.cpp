@@ -31,7 +31,7 @@ REF NO	VERSION		DATE (YYMMDD)	WHO	DETAIL
 #include "Cone.h"
 
 Cone::Cone() {}
-//Cone::Cone(double _height, double _radius) : height (_height), radius (_radius) {}
+Cone::Cone(double _height, double _radius) : height (_height), radius (_radius) {}
 
 double Cone::getArea() {
     return (M_PI * radius *
@@ -52,5 +52,5 @@ void Cone::printArea() {
     cout << "The area is: " << getArea() << endl;
 }
 void Cone::printVolume() {
-    cout << " The volume is: " << getVolume() << endl;
+    cout << "The volume is: " << getVolume() << endl;
 }

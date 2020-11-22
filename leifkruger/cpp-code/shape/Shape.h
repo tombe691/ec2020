@@ -39,7 +39,7 @@ private:
 public:
     virtual double getArea();
     virtual double getVolume();
-    virtual void getInput();
+    virtual void setInput();
     virtual void printArea();
     virtual void printVolume();
 };

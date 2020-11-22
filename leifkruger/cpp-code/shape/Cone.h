@@ -37,7 +37,7 @@ private:
     double height;
 public:
     Cone();
-    //Cone(double _height, double _radius);
+    Cone(double _height, double _radius);
     double getArea();
     double getVolume();
     void setInput();

@@ -31,7 +31,7 @@ REF NO	VERSION		DATE (YYMMDD)	WHO	DETAIL
 #include "Sphere.h"
 
 Sphere::Sphere() {}
-//Sphere::Sphere(double _radius) : radius(_radius) {}
+Sphere::Sphere(double _radius) : radius(_radius) {}
 
 double Sphere::getArea() {
     return 4 * M_PI * radius * radius;
@@ -49,5 +49,5 @@ void Sphere::printArea() {
     cout << "The area is: " << getArea() << endl;
 }
 void Sphere::printVolume() {
-    cout << " The volume is: " << getVolume() << endl;
+    cout << "The volume is: " << getVolume() << endl;
 }

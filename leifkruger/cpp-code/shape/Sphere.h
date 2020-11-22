@@ -36,7 +36,7 @@ private:
     double radius;
 public:
     Sphere();
-    //Sphere(double _radius);
+    Sphere(double _radius);
     double getArea();
     double getVolume();
     void setInput();

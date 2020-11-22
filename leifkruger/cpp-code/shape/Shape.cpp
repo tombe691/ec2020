@@ -36,7 +36,7 @@ double Shape::getVolume() {
     return 0;
 }
 
-void Shape::getInput() {
+void Shape::setInput() {
 }
 
 void Shape::printArea() {
