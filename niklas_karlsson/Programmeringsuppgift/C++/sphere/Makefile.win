@@ -1,0 +1,2 @@
+degree: main.cpp sphere.cpp
+	g++ main.cpp sphere.cpp -o sphere.exe
