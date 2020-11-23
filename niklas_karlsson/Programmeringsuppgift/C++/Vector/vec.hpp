@@ -1,3 +1,9 @@
+// File: vec.hpp
+// Summary: Class vector.
+// Version: 1.0
+// Owner: Niklas Karlsson
+// ---------------------------------------------------------------
+
 #ifndef VEC_VEC_H
 #define VEC_VEC_H
 

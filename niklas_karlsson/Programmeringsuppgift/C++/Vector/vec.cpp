@@ -1,3 +1,9 @@
+// File: vec.cpp
+// Summary: Class functions for vector.
+// Version: 1.0
+// Owner: Niklas Karlsson
+// ---------------------------------------------------------------
+
 #include "vec.hpp"
 
 using namespace std;

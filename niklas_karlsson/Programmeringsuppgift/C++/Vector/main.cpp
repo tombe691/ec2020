@@ -1,3 +1,8 @@
+// File: main.cpp
+// Summary: Fun exercise with vectors.
+// Version: 1.0
+// Owner: Niklas Karlsson
+// ---------------------------------------------------------------
 
 #include "vec.hpp"
 
