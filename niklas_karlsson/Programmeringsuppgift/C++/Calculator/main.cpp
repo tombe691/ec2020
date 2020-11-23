@@ -1,3 +1,9 @@
+// File: main.cpp
+// Summary: Simple calculator with try 'n' catch.
+// Version: 1.0
+// Owner: Niklas Karlsson
+// ---------------------------------------------------------------
+
 #include <iostream>
 
 using namespace std;
