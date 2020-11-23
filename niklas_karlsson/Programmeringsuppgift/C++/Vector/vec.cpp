@@ -15,6 +15,7 @@ void vec::yesNo(void)
 {
     do
     {
+        char ch;
         cout << "The program is about to exit, do you want to try again (Y/N)?"
              << endl;
 
