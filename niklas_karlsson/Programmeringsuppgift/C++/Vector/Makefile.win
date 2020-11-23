@@ -1,0 +1,2 @@
+degree: main.cpp vec.cpp
+	g++ main.cpp vec.cpp -o vector.exe
