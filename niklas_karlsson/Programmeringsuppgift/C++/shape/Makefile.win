@@ -1,0 +1,2 @@
+shape: main.cpp box.cpp cone.cpp rectangle.cpp shape.cpp sphere.cpp triangle.cpp
+	g++ main.cpp box.cpp cone.cpp rectangle.cpp shape.cpp sphere.cpp triangle.cpp -o shape.exe
