@@ -5,34 +5,57 @@
 // ---------------------------------------------------------------
 
 #include "shape.hpp"
+
 using namespace std;    // Will generate error if not.
 
+/*
+ * Constructor
+ */
 Shape::Shape(void)
 {
 }
 
+/*
+ * Destructor
+ */
 Shape::~Shape(void)
 {
 }
 
+/*
+ * Double type. Return something
+ */
 double Shape::Area()
 {
-    // Otherwise - warning: no return statement in function returning non-void
     return 0;
 }
+
+/*
+ * Double type. Return something
+ */
 double Shape::Volume()
 {
-    // Otherwise - warning: no return statement in function returning non-void
     return 0;
 }
+
+/*
+ * Void, no return here
+ */
 void Shape::Input()
 {
 }
 
+/*
+ * Print the stored volume
+ */
 void Shape::PrintVolume(void)
 {
     cout << "The Volume is: " << Volume() << endl;
 }
+
+/*
+ * Print the stored area
+ */
 void Shape::PrintArea(void)
 {
     cout << "The Area is: " << Area() << endl;
