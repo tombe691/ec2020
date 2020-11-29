@@ -1,13 +1,9 @@
 //
-// created  by Nataliya Lisjö
+// created  by Nataliya Lisjö //.Nat
 //
 #include <iostream>
 #include "ohm.h"
 using namespace std;
-
-
-
-double resistance( double x, double y);
 
 struct   El {
     double volt;          // spänning U
@@ -15,7 +11,7 @@ struct   El {
     double amper ;         // ström I
 
 };
-
+//----------------------------
 int main(void) {
     struct El schema1;
     while (cin.fail()) {
@@ -31,12 +27,3 @@ int main(void) {
     }
 }
 
-double resistance( double x, double y) // R=U/I
-{
-    double z = 1000*x/y;
-    return z;
-}
-double current (double x , double y){
-    double z = x*y;
-    return z;
-}

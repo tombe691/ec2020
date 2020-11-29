@@ -1,7 +1,7 @@
 //Date        : 2020-12-11
 //File        : main.cpp
 //Description : Program calculate volume and area  of the sphere .
-//Author      : Nataliya Lisjö
+//Author      : Nataliya Lisjö //.Nat
 
 #include <iostream>
 #include "o.h"

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="cpp" targetName="cpp" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a4b5324-d4bb-41e2-b561-2fd7b21d5e2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ohm/ohm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ohm/ohm_f.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sphere/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sphere/o.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sphere/o.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bensin.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmapp/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmapp/betyg.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmapp/hej.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmapp/jym.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmapp/mobil.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmapp/namn.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmapp/user.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../diod.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ec2020" beforeDir="false" afterPath="$PROJECT_DIR$/../../ec2020" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../funk/bmiFunktions.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../funk/sum.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../helloworld.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moms.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tabel.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../udda.c" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1kxjSUpudCEwrAm02Takn3gEv1A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CMakeLists.txt" />
+  </component>
+  <component name="RunManager">
+    <configuration name="cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a4b5324-d4bb-41e2-b561-2fd7b21d5e2f" name="Default Changelist" comment="" />
+      <created>1606649136418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606649136418</updated>
+      <workItem from="1606649137482" duration="355000" />
+      <workItem from="1606649519962" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2380" y="139" key="FileChooserDialogImpl" timestamp="1606649287245">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state x="2380" y="139" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1360.768@1920.0.1360.768" timestamp="1606649287245" />
+    <state x="2417" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606649211691">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state x="2417" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/1920.0.1360.768@1920.0.1360.768" timestamp="1606649211691" />
+  </component>
+</project>
