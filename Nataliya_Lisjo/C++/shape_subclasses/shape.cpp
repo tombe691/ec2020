@@ -1,10 +1,12 @@
-//
+// file shape.cpp
 // Created by Nataliya Lisjö //.Nat
 // 11/18/2020.
 //
- #include "shape.h"
+#include "shape.h"
 #include <iostream>
+#include <list>
 
+using namespace std;
 int main (){
 
     Sphere s1;
