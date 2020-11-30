@@ -7,10 +7,18 @@
 #include "box.hpp"
 using namespace std;    // Will generate error if not.
 
+/*
+ * If no paramters was used
+ */
 Box::Box(void)
 {
 }
 
+/*
+ * w to shape::width
+ * h to shape::height
+ * l to shape::length
+ */
 Box::Box(double w, double h, double l) : width(w), height(h), length(l)
 {
 }

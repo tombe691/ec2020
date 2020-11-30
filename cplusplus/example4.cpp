@@ -12,7 +12,9 @@ public:
     string name1;
     int age; //class data
     float salary;
-    person(){}
+    person(){
+        
+    }
 
     person(string name, int age2, float salary2)
     {

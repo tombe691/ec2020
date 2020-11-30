@@ -5,6 +5,7 @@
 // ---------------------------------------------------------------
 
 #include "shape.hpp"
+using namespace std;
 
 #ifndef BOX_H
 #define BOX_H

@@ -11,6 +11,7 @@ Cone::Cone(void)
 {
 }
 
+// Pass variable r to radius and h to height.
 Cone::Cone(double r, double h) : radius(r), height(h)
 {
 }
