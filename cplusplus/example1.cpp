@@ -1,5 +1,6 @@
+// Noor was here
 // smallobj.cpp
-// demonstrates a small, simple object
+// demonstrates a small, simple object with problems..
 #include <iostream>
 using namespace std;
 ////////////////////////////////////////////////////////////////
@@ -16,7 +17,7 @@ int main()
 {
     person p1, p2; //define two objects of class person
     p1.age = 32; //giving value to the properties
-    p1.name1 = "kalle";
+    p1.name1 = "Rune";
     p1.salary = 23456,78;
     cout << p1.name1; //printing the values stored
     return 0;
