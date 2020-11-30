@@ -104,19 +104,15 @@ void setNext(struct Node *head, int id, string player, double howLong)
  */
 void display(struct Node *head)
 {
-	// int i = 0;
-	Node *list = head;
 	// This could be anything. Just to simulate something.
 	cout << "Listing all the players online... " << endl;
-	while (list)
+    // For-loop was easier to read.
+    for (Node *list = head; list != NULL; list = list->next)
 	{
-		// Move along, nothing special here.. q(o_O)p <-- headphones.
+		// Move along.
 		cout << "ID: " << list->id << "\t\t"
 			 << "Nickname: " << list->player << "\t\t"
 			 << "Played (in time): " << list->howLong << endl;
-		list = list->next;
-		// i++;    // Wait.. what? WHY YOU HERE? This is not your job! IMPOSTER!
-		// i++ was the imposter...
 	}
 	cout << "Got to the end.. that's all folks!" << endl;
 }

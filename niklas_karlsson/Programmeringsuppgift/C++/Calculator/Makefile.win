@@ -1,0 +1,2 @@
+degree: main.cpp
+	g++ main.cpp -o calc.exe
