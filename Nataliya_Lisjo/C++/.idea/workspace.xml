@@ -35,18 +35,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c736f790-5bc1-4393-a7fe-b42daf5f49e4" name="Default Changelist" comment="+">
-      <change afterPath="$PROJECT_DIR$/../../untitled4/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../untitled4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../untitled4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../untitled4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../untitled4/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../untitled4/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../untitled4/list.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../untitled4/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../untitled4/shape.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shape_subclasses/shape.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/shape_subclasses/shape.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shape_subclasses/shape.h" beforeDir="false" afterPath="$PROJECT_DIR$/shape_subclasses/shape.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../untitled4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled4/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled4/list.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled4/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled4/shape.h" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +69,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tomas_berggren" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -96,6 +93,7 @@
       <workItem from="1605696255946" duration="12000" />
       <workItem from="1606649643469" duration="860000" />
       <workItem from="1606650583860" duration="2298000" />
+      <workItem from="1606748273489" duration="218000" />
     </task>
     <task id="LOCAL-00001" summary="+">
       <created>1606649780016</created>
@@ -138,5 +136,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="+" />
     <option name="LAST_COMMIT_MESSAGE" value="+" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2380" y="139" key="FileChooserDialogImpl" timestamp="1606748490961">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state x="2380" y="139" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1360.768@1920.0.1360.768" timestamp="1606748490961" />
   </component>
 </project>
