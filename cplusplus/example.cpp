@@ -17,10 +17,10 @@ public:
 int main()
 {
   smallobj s1, s2; //define two objects of class smallobj
-  s1.setdata(1066); //call member function to set data
-  s2.setdata(1776);
+  s1.setdata(1337); //call member function to set data
+  s2.setdata(7331);
   s1.showdata(); //call member function to display data
   s2.showdata();
   cout << s2.somedata;
-  return 0;
+  return 0;//Rickard Tiger kommer från Norberg
 }
