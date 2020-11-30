@@ -20,5 +20,5 @@ int main()
     p1.name1 = "kalle";
     p1.salary = 23456,78;
     cout << p1.name1; //printing the values stored
-    return 0;
+    return 50;
 }
