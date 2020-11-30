@@ -1,5 +1,5 @@
 // smallobj.cpp
-// demonstrates a small, simple object
+// demonstrates a small, simple object with problems..
 #include <iostream>
 using namespace std;
 ////////////////////////////////////////////////////////////////
