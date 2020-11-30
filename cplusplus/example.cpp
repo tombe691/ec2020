@@ -22,5 +22,5 @@ int main()
   s1.showdata(); //call member function to display data
   s2.showdata();
   cout << s2.somedata;
-  return 0;
+  return 0;//Rickard Tiger kommer från Norberg
 }
