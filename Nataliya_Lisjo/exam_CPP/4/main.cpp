@@ -2,7 +2,7 @@
 //File        : main.cpp
 //Description : program that reads data for six temperature sensors in a house .
 //Author      : Nataliya Lisjö//.nat
-//Version    : 1.1
+//Version    : 1.1  DONT WORK
 //-------------------------------------------------------------------------
 
 

@@ -2,7 +2,7 @@
 //File        : main.cpp
 //Description : Bankomat program med security pin; withdraw och deposit money ; save in file date , .
 //Author      : Nataliya Lisjö//.nat
-//Version    : 1.1
+//Version    : 1.1   DONT WORK
 //-------------------------------------------------------------------------
 
 #include <iostream>
