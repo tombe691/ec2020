@@ -1,0 +1,6 @@
+//Date        : 12/10/2020
+//File        : BANK_DATA.txt
+//Description : Bankomat program med security pin; withdraw och deposit money ; save in file date , .
+//Author      : Nataliya Lisjö//.nat
+//Version    : 1.1
+//-------------------------------------------------------------------------
